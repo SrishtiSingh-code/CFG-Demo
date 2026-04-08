@@ -1,20 +1,14 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# CFG Parser & Parse Tree Visualizer
 
-# Run and deploy your AI Studio app
+A specialized tool for analyzing Context-Free Grammars (CFG) and generating visual parse trees. Developed for the Theory of Automata and Formal Languages (TAFL) coursework at NSUT.
 
-This contains everything you need to run your app locally.
+## Key Features
+* **CFG Validation:** Ensures the input grammar follows formal production rules.
+* **Parse Tree Generation:** Hierarchical visualization of string derivations.
+* **Derivation Tracing:** Supports step-by-step leftmost and rightmost derivation analysis.
 
-View your app in AI Studio: https://ai.studio/apps/adfefe45-141c-4f24-9be1-91cb4d0cc386
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Tech Stack
+* React.js & TypeScript
+* Tailwind CSS for UI
+* KaTeX for mathematical notation
+* Vite Build Tool
